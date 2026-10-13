@@ -1,0 +1,22 @@
+---
+title: Example Guide
+description: Verify Fumadocs MDX components and static generation.
+---
+
+This page proves nested documentation routes are emitted as static HTML.
+
+## Cards
+
+<Cards>
+  <Card title="React Router" href="https://reactrouter.com" />
+  <Card title="Fumadocs" href="https://fumadocs.dev" />
+</Cards>
+
+## Code
+
+```ts
+export const rendering = {
+  docs: "ssg",
+  dashboard: "csr",
+};
+```

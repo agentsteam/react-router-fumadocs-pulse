@@ -1,0 +1,16 @@
+---
+title: Hello from the frontend template
+description: How docs, blog, and dashboard share one workspace.
+date: 2026-08-03
+author: Template Team
+---
+
+This post is compiled by Fumadocs MDX and prerendered by React Router.
+
+## One frontend
+
+Docs and blog are routes in `apps/web`, not separate deployable applications. The dashboard shares the same route tree but uses the generated SPA fallback.
+
+## Client rendering
+
+Dashboard routes remain part of `apps/web` and hydrate from the generated SPA fallback.
